@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S. Syed Sameer | Cybersecurity Portfolio</title>
+
+  <!-- FONTS & ICONS -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+
+  <!-- AOS Animation -->
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+  />
+
+  <!-- STYLES -->
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav__container">
+      <a href="#home" class="logo">Sameer</a>
+      <ul class="nav__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="mode-toggle" aria-label="Toggle Dark/Light Mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero" data-aos="fade-up">
+      <div class="container hero__content">
+        <h1 id="typed-text"></h1>
+        <p>Securing the Digital World, One Byte at a Time</p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+      <canvas id="particle-canvas"></canvas>
+    </section>
+
+```
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>
+      Second-year CSE student specializing in Cybersecurity. Passionate about digital defense,
+      network safety, and ethical hacking. I build tools, perform audits, and educate about
+      phishing threats.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section section--dark">
+  <div class="container" data-aos="zoom-in">
+    <h2>Skills & Tools</h2>
+    <div class="skills__grid">
+      <div class="skill">C</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Network Security</div>
+      <div class="skill">Ethical Hacking</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 data-aos="fade-left">Projects</h2>
+    <div class="projects__grid">
+      <article class="project-card" data-aos="flip-left">
+        <h3>Network Sniffer</h3>
+        <p>Real‑time traffic monitoring with anomaly alerts.</p>
+        <a
+          href="https://github.com/august04-oss/codealpha_tasks-01"
+          target="_blank"
+          class="link"
+        >
+          View Repo
+        </a>
+      </article>
+
+      <article
+        class="project-card"
+        data-aos="flip-left"
+        data-aos-delay="100"
+      >
+        <h3>Phishing Awareness</h3>
+        <p>Interactive learning module on identifying phishing attempts.</p>
+        <a
+          href="https://github.com/august04-oss/codealpha_tasks-02"
+          target="_blank"
+          class="link"
+        >
+          View Repo
+        </a>
+      </article>
+
+      <article
+        class="project-card"
+        data-aos="flip-left"
+        data-aos-delay="200"
+      >
+        <h3>Secure Registration</h3>
+        <p>Hardened user signup system against common vulnerabilities.</p>
+        <a
+          href="https://github.com/august04-oss/codealpha_tasks-03"
+          target="_blank"
+          class="link"
+        >
+          View Repo
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section--dark">
+  <div class="container" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contact-form" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 S. Syed Sameer</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js">
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
